@@ -1,0 +1,33 @@
+{
+	"type": "record",
+	"name": "TestRecord",
+	"fields": [{
+			"name": "objectid",
+			"type": ["null","float"]
+		},
+		{
+			"name": "active_date",
+			"type": { "type":"string","logicalType":"timestamp"}
+		},
+		{
+			"name": "lat",
+			"type": "float"
+		},
+		{
+			"name": "lon",
+			"type": "float"
+		},
+		{
+			"name": "alt",
+			"type": "float"
+		},
+		{
+			"name": "label_id",
+			"type": "long"
+		},
+		{
+			"name": "user_id",
+			"type": "long"
+		}
+	]
+}
