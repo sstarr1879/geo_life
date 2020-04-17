@@ -16,6 +16,8 @@ Exploration of Spatial Index performance for common geospatial analytics.
 
 ### Workflow
 
+![dfd](/etl/Geolife_Flow.png)
+
 * Use NiFi to populate postgres database with appropriate spatial index
 * run geospatial operations (from EC2 or local compute) and write results to geo_ops_metrics table in postgresql.
 * evaluate benchmarking metrics
